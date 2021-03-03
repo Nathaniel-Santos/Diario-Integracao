@@ -160,6 +160,6 @@ app.post('/updateFaltas', (req, res) => {
 })
 
 
-app.listen(3000, () => {
+app.listen(5000, () => {
     console.log('Rodando servidor na porta 3001')
 })

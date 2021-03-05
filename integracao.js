@@ -39,6 +39,7 @@ app.get('/alunos', (req, res) => {
             console.log('Deu RUIM')
         } else {
             res.send(result)
+            console.log('Consultou Professor: ', result)
         }
     })
 })
